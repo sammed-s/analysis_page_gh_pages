@@ -8,7 +8,7 @@ import {store} from "./redux/store/store.js";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename={import.meta.env.VITE_BASE_URL_ANALYSIS}>
+    <BrowserRouter>
       <Provider store={store}>
         <App />
       </Provider>

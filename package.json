@@ -5,10 +5,10 @@
   "homepage": "https://sammed-s.github.io/react-gh-pages",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build:prod",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "start": "env-cmd -f env/.env.local vite",
-    "build": "env-cmd -f env/.env.local vite build",
+    "build": "vite build",
     "start:staging": "env-cmd -f env/.env.development vite --mode development",
     "build:staging": "env-cmd -f env/.env.development vite build",
     "start:prod": "env-cmd -f env/.env.production vite --mode production",

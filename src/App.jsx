@@ -12,10 +12,7 @@ const App = () => {
   const theme = createTheme(drillBitTheme);
   return (
     <>
-      <Suspense fallback={<LoadingIndicator />}>
-        <ToastContainer />
-        <ThemeProvider theme={theme}>{routing}</ThemeProvider>
-      </Suspense>
+      <h1> NO DEPLOYMENT</h1>
     </>
   );
 };
